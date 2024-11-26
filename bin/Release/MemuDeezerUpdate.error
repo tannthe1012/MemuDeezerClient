@@ -1,0 +1,30 @@
+-----------------------------------------------------------
+[01/10/2024 04:37:03 PM] ERROR: ThreadAbortException
+Message    : Thread was being aborted.
+Source     : mscorlib
+TargetSite : Void SleepInternal(Int32)
+StackTrace : 
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at MemuDeezerVanguard.Program.OnWork() in E:\Tan\2024\MemuDeezer\MemuDeezerVanguard\Program.cs:line 102
+-----------------------------------------------------------
+-----------------------------------------------------------
+[03/10/2024 03:49:03 PM] ERROR: ThreadAbortException
+Message    : Thread was being aborted.
+Source     : mscorlib
+TargetSite : Void SleepInternal(Int32)
+StackTrace : 
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at MemuDeezerVanguard.Program.OnWork() in E:\Tan\2024\MemuDeezer\MemuDeezerVanguard\Program.cs:line 102
+-----------------------------------------------------------
+-----------------------------------------------------------
+[10/10/2024 03:03:32 PM] ERROR: ThreadAbortException
+Message    : Thread was being aborted.
+Source     : mscorlib
+TargetSite : Void SleepInternal(Int32)
+StackTrace : 
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at MemuDeezerVanguard.Program.OnWork() in E:\Tan\2024\MemuDeezer\MemuDeezerVanguard\Program.cs:line 102
+-----------------------------------------------------------

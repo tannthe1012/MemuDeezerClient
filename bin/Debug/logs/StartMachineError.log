@@ -1,0 +1,11 @@
+-----------------------------------------------------------
+[24/09/2024 10:57:10 AM] ERROR: System.Runtime.InteropServices.COMException
+Message        : The machine 'MEmu' is not registered
+Source         : MachineWrap
+TargetSite     : Void LockMachine(MemuHyperv.Session, MemuHyperv.LockType)
+StackTrace     : 
+   at MemuHyperv.IMachine.LockMachine(Session aSession, LockType aLockType)
+   at MemuDeezerClient.Managers.MachineManager.CreateMachine(Int32 tid) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\Managers\MachineManager.cs:line 197
+   at MemuDeezerClient.Managers.MachineManager.StartMachine(Int32 tid) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\Managers\MachineManager.cs:line 251
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 196
+-----------------------------------------------------------

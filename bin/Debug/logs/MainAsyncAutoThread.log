@@ -1,0 +1,1988 @@
+-----------------------------------------------------------
+[13/09/2024 11:06:13 AM] ERROR: System.IndexOutOfRangeException
+Message        : Index was outside the bounds of the array.
+Source         : MemuDeezerClient
+TargetSite     : Void PlayMusic(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.PlayMusic(String link, LDium ldium, Int32 i) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2126
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1131
+-----------------------------------------------------------
+-----------------------------------------------------------
+[14/09/2024 11:40:53 AM] ERROR: System.Exception
+Message        : LDium protocol is disconnected.
+Source         : mscorlib
+TargetSite     : Void ThrowForNonSuccess(System.Threading.Tasks.Task)
+StackTrace     : 
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__7.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 88
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 49
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 558
+-----------------------------------------------------------
+-----------------------------------------------------------
+[14/09/2024 11:44:47 AM] ERROR: System.NullReferenceException
+Message        : Object reference not set to an instance of an object.
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1063
+-----------------------------------------------------------
+-----------------------------------------------------------
+[14/09/2024 02:08:57 PM] ERROR: System.Exception
+Message        : WebSocket is not connected.
+Source         : LDiumSharp
+TargetSite     : System.Threading.Tasks.Task SendAsync(System.ArraySegment`1[System.Byte], System.Net.WebSockets.WebSocketMessageType, Boolean, System.Threading.CancellationToken)
+StackTrace     : 
+   at LDiumSharp.WebSockets.WebSocketClient.SendAsync(ArraySegment`1 data, WebSocketMessageType type, Boolean end_of_message, CancellationToken token) in E:\Data\2024\MEmu\Libraries\LDiumSharp\WebSockets\WebSocketClient.cs:line 116
+   at LDiumSharp.WebSockets.WebSocketClient.SendAsync(String data, CancellationToken token) in E:\Data\2024\MEmu\Libraries\LDiumSharp\WebSockets\WebSocketClient.cs:line 98
+   at LDiumSharp.Protocol.<SendAsync>d__23.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\Protocol.cs:line 83
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__7.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 86
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 49
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<DumpViewHierarchyAsync>d__50.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 108
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 376
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 588
+-----------------------------------------------------------
+-----------------------------------------------------------
+[14/09/2024 02:22:57 PM] ERROR: System.Exception
+Message        : Failed to pick source.
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1021
+IException     : System.Threading.Tasks.TaskCanceledException
+IMessage       : A task was canceled.
+ISource        : mscorlib
+ITargetSite    : Void ThrowForNonSuccess(System.Threading.Tasks.Task)
+IStackTrace    : 
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at BoosterClient.APIClient.<RequestAsync>d__27.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\API\APIClient.cs:line 126
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at BoosterClient.APIClient.<RequestAsync>d__30`1.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\API\APIClient.cs:line 188
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1011
+-----------------------------------------------------------
+-----------------------------------------------------------
+[14/09/2024 02:24:15 PM] ERROR: System.Exception
+Message        : Failed to pick source.
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1021
+IException     : System.Threading.Tasks.TaskCanceledException
+IMessage       : A task was canceled.
+ISource        : mscorlib
+ITargetSite    : Void ThrowForNonSuccess(System.Threading.Tasks.Task)
+IStackTrace    : 
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at BoosterClient.APIClient.<RequestAsync>d__27.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\API\APIClient.cs:line 126
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at BoosterClient.APIClient.<RequestAsync>d__30`1.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\API\APIClient.cs:line 188
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1011
+-----------------------------------------------------------
+-----------------------------------------------------------
+[14/09/2024 02:31:45 PM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at MemuDeezerClient.MainAsyncAutoThread.PlayMusic(String link, LDium ldium, Int32 i) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2375
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1144
+IException     : LDiumSharp.Exceptions.NodeNotFoundException
+IMessage       : //node[@resource-id="deezer.android.app:id/card"]/node[@resource-id="deezer.android.app:id/card_play_button"]/node[1]/node[1]/node[1]
+ISource        : LDiumSharp
+ITargetSite    : Void MoveNext()
+IStackTrace    : 
+   at LDiumSharp.LDium.<TouchAsync>d__58.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 185
+-----------------------------------------------------------
+-----------------------------------------------------------
+[16/09/2024 04:04:48 PM] ERROR: System.ArgumentNullException
+Message        : Value cannot be null.
+Parameter name: source
+Source         : System.Core
+TargetSite     : System.Collections.Generic.IEnumerable`1[TSource] Append[TSource](System.Collections.Generic.IEnumerable`1[TSource], TSource)
+StackTrace     : 
+   at System.Linq.Enumerable.Append[TSource](IEnumerable`1 source, TSource element)
+   at MemuDeezerClient.MainAsyncAutoThread.PlayMusic(String link, LDium ldium, Int32 i) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2161
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1144
+-----------------------------------------------------------
+-----------------------------------------------------------
+[16/09/2024 04:05:40 PM] ERROR: System.ArgumentNullException
+Message        : Value cannot be null.
+Parameter name: source
+Source         : System.Core
+TargetSite     : System.Collections.Generic.IEnumerable`1[TSource] Append[TSource](System.Collections.Generic.IEnumerable`1[TSource], TSource)
+StackTrace     : 
+   at System.Linq.Enumerable.Append[TSource](IEnumerable`1 source, TSource element)
+   at MemuDeezerClient.MainAsyncAutoThread.PlayMusic(String link, LDium ldium, Int32 i) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2161
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1144
+-----------------------------------------------------------
+-----------------------------------------------------------
+[17/09/2024 03:48:24 PM] ERROR: System.ArgumentOutOfRangeException
+Message        : StartIndex cannot be less than zero.
+Parameter name: startIndex
+Source         : mscorlib
+TargetSite     : System.String Remove(Int32)
+StackTrace     : 
+   at System.String.Remove(Int32 startIndex)
+   at MEmuSharp.MEmuMachine.ExecuteShell(Object[] commands) in E:\Data\2024\MEmu\Libraries\MEmuSharp\MEmuMachine.cs:line 509
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 219
+-----------------------------------------------------------
+-----------------------------------------------------------
+[17/09/2024 04:12:24 PM] ERROR: System.Exception
+Message        : Playing together
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic(System.String, LDiumSharp.LDium, System.String, System.String, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic(String link, LDium ldium, String first_name_track, String name_artist, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2461
+   at MemuDeezerClient.MainAsyncAutoThread.PlayMusic(String link, LDium ldium, Int32 i) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2215
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1145
+-----------------------------------------------------------
+-----------------------------------------------------------
+[17/09/2024 04:59:47 PM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at MemuDeezerClient.MainAsyncAutoThread.PlayMusic(String link, LDium ldium, Int32 i) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2235
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1145
+IException     : System.Exception
+IMessage       : WebSocket is not connected.
+ISource        : LDiumSharp
+ITargetSite    : System.Threading.Tasks.Task SendAsync(System.ArraySegment`1[System.Byte], System.Net.WebSockets.WebSocketMessageType, Boolean, System.Threading.CancellationToken)
+IStackTrace    : 
+   at LDiumSharp.WebSockets.WebSocketClient.SendAsync(ArraySegment`1 data, WebSocketMessageType type, Boolean end_of_message, CancellationToken token) in E:\Data\2024\MEmu\Libraries\LDiumSharp\WebSockets\WebSocketClient.cs:line 116
+   at LDiumSharp.WebSockets.WebSocketClient.SendAsync(String data, CancellationToken token) in E:\Data\2024\MEmu\Libraries\LDiumSharp\WebSockets\WebSocketClient.cs:line 98
+   at LDiumSharp.Protocol.<SendAsync>d__23.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\Protocol.cs:line 83
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__7.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 86
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 49
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<DumpViewHierarchyAsync>d__50.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 108
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<ExistAsync>d__72.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 335
+-----------------------------------------------------------
+-----------------------------------------------------------
+[17/09/2024 05:00:28 PM] ERROR: System.TimeoutException
+Message        : Failed to wait node exist: //node[@resource-id="deezer.android.app:id/cover_and_title"], //node[@resource-id="deezer.android.app:id/continue_btn"], //node[@resource-id="android:id/button1"], //node[@resource-id="deezer.android.app:id/header_close_button"], //node[@text="Change my payment details"], //node[@resource-id="deezer.android.app:id/welcome_title"], //node[@resource-id="deezer.android.app:id/webview_cancel"], //node[@text="Accept"], //node[@text="Process system isn't responding"], //node[@resource-id="android:id/message"]
+Source         : LDiumSharp
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 387
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 589
+-----------------------------------------------------------
+-----------------------------------------------------------
+[17/09/2024 05:01:08 PM] ERROR: System.TimeoutException
+Message        : Failed to wait node exist: //node[@resource-id="deezer.android.app:id/cover_and_title"], //node[@resource-id="deezer.android.app:id/continue_btn"], //node[@resource-id="android:id/button1"], //node[@resource-id="deezer.android.app:id/header_close_button"], //node[@text="Change my payment details"], //node[@resource-id="deezer.android.app:id/welcome_title"], //node[@resource-id="deezer.android.app:id/webview_cancel"], //node[@text="Accept"], //node[@text="Process system isn't responding"], //node[@resource-id="android:id/message"]
+Source         : LDiumSharp
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 387
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 589
+-----------------------------------------------------------
+-----------------------------------------------------------
+[17/09/2024 05:01:48 PM] ERROR: System.TimeoutException
+Message        : Failed to wait node exist: //node[@resource-id="deezer.android.app:id/cover_and_title"], //node[@resource-id="deezer.android.app:id/continue_btn"], //node[@resource-id="android:id/button1"], //node[@resource-id="deezer.android.app:id/header_close_button"], //node[@text="Change my payment details"], //node[@resource-id="deezer.android.app:id/welcome_title"], //node[@resource-id="deezer.android.app:id/webview_cancel"], //node[@text="Accept"], //node[@text="Process system isn't responding"], //node[@resource-id="android:id/message"]
+Source         : LDiumSharp
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 387
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 589
+-----------------------------------------------------------
+-----------------------------------------------------------
+[17/09/2024 05:02:27 PM] ERROR: System.TimeoutException
+Message        : Failed to wait node exist: //node[@resource-id="deezer.android.app:id/cover_and_title"], //node[@resource-id="deezer.android.app:id/continue_btn"], //node[@resource-id="android:id/button1"], //node[@resource-id="deezer.android.app:id/header_close_button"], //node[@text="Change my payment details"], //node[@resource-id="deezer.android.app:id/welcome_title"], //node[@resource-id="deezer.android.app:id/webview_cancel"], //node[@text="Accept"], //node[@text="Process system isn't responding"], //node[@resource-id="android:id/message"]
+Source         : LDiumSharp
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 387
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 589
+-----------------------------------------------------------
+-----------------------------------------------------------
+[17/09/2024 05:03:07 PM] ERROR: System.TimeoutException
+Message        : Failed to wait node exist: //node[@resource-id="deezer.android.app:id/cover_and_title"], //node[@resource-id="deezer.android.app:id/continue_btn"], //node[@resource-id="android:id/button1"], //node[@resource-id="deezer.android.app:id/header_close_button"], //node[@text="Change my payment details"], //node[@resource-id="deezer.android.app:id/welcome_title"], //node[@resource-id="deezer.android.app:id/webview_cancel"], //node[@text="Accept"], //node[@text="Process system isn't responding"], //node[@resource-id="android:id/message"]
+Source         : LDiumSharp
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 387
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 589
+-----------------------------------------------------------
+-----------------------------------------------------------
+[17/09/2024 05:03:47 PM] ERROR: System.TimeoutException
+Message        : Failed to wait node exist: //node[@resource-id="deezer.android.app:id/cover_and_title"], //node[@resource-id="deezer.android.app:id/continue_btn"], //node[@resource-id="android:id/button1"], //node[@resource-id="deezer.android.app:id/header_close_button"], //node[@text="Change my payment details"], //node[@resource-id="deezer.android.app:id/welcome_title"], //node[@resource-id="deezer.android.app:id/webview_cancel"], //node[@text="Accept"], //node[@text="Process system isn't responding"], //node[@resource-id="android:id/message"]
+Source         : LDiumSharp
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 387
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 589
+-----------------------------------------------------------
+-----------------------------------------------------------
+[17/09/2024 05:04:27 PM] ERROR: System.TimeoutException
+Message        : Failed to wait node exist: //node[@resource-id="deezer.android.app:id/cover_and_title"], //node[@resource-id="deezer.android.app:id/continue_btn"], //node[@resource-id="android:id/button1"], //node[@resource-id="deezer.android.app:id/header_close_button"], //node[@text="Change my payment details"], //node[@resource-id="deezer.android.app:id/welcome_title"], //node[@resource-id="deezer.android.app:id/webview_cancel"], //node[@text="Accept"], //node[@text="Process system isn't responding"], //node[@resource-id="android:id/message"]
+Source         : LDiumSharp
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 387
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 589
+-----------------------------------------------------------
+-----------------------------------------------------------
+[17/09/2024 05:04:58 PM] ERROR: LDiumSharp.Exceptions.JavaException
+Message        : Attempt to invoke virtual method 'java.lang.CharSequence android.view.accessibility.AccessibilityNodeInfo.getText()' on a null object reference
+Source         : LDiumSharp
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<DumpViewHierarchyAsync>d__50.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 108
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 376
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 589
+-----------------------------------------------------------
+-----------------------------------------------------------
+[17/09/2024 05:06:06 PM] ERROR: System.NullReferenceException
+Message        : Object reference not set to an instance of an object.
+Source         : MemuDeezerClient
+TargetSite     : Void PlayMusic(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.PlayMusic(String link, LDium ldium, Int32 i) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2189
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1145
+-----------------------------------------------------------
+-----------------------------------------------------------
+[17/09/2024 05:37:22 PM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1089
+IException     : System.Exception
+IMessage       : LDium protocol is disconnected.
+ISource        : mscorlib
+ITargetSite    : Void ThrowForNonSuccess(System.Threading.Tasks.Task)
+IStackTrace    : 
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__7.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 88
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 49
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<DumpViewHierarchyAsync>d__50.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 108
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<ExistAsync>d__72.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 335
+-----------------------------------------------------------
+-----------------------------------------------------------
+[19/09/2024 01:57:00 PM] ERROR: System.Exception
+Message        : Failed to connect to LDium server after 5 attempts.
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 275
+-----------------------------------------------------------
+-----------------------------------------------------------
+[19/09/2024 01:58:05 PM] ERROR: System.Exception
+Message        : Failed to wait LDium server online.
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 240
+-----------------------------------------------------------
+-----------------------------------------------------------
+[19/09/2024 02:01:24 PM] ERROR: System.TimeoutException
+Message        : Failed to wait node exist: //node[@resource-id="deezer.android.app:id/cover_and_title"], //node[@resource-id="deezer.android.app:id/continue_btn"], //node[@resource-id="android:id/button1"], //node[@resource-id="deezer.android.app:id/header_close_button"], //node[@text="Change my payment details"], //node[@resource-id="deezer.android.app:id/welcome_title"], //node[@resource-id="deezer.android.app:id/webview_cancel"], //node[@text="Accept"], //node[@text="Process system isn't responding"], //node[@resource-id="android:id/message"]
+Source         : LDiumSharp
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 387
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 589
+-----------------------------------------------------------
+-----------------------------------------------------------
+[19/09/2024 02:23:48 PM] ERROR: System.Exception
+Message        : Playing failed
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic(System.String, LDiumSharp.LDium, System.String, System.String, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic(String link, LDium ldium, String first_name_track, String name_artist, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2476
+   at MemuDeezerClient.MainAsyncAutoThread.PlayMusic(String link, LDium ldium, Int32 i) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2215
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1145
+-----------------------------------------------------------
+-----------------------------------------------------------
+[20/09/2024 08:48:57 AM] ERROR: System.Exception
+Message        : Playing failed
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2906
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1148
+-----------------------------------------------------------
+-----------------------------------------------------------
+[20/09/2024 03:32:16 PM] ERROR: System.TimeoutException
+Message        : Failed to wait node exist: //node[@resource-id="deezer.android.app:id/cover_and_title"], //node[@resource-id="deezer.android.app:id/continue_btn"], //node[@resource-id="android:id/button1"], //node[@resource-id="deezer.android.app:id/header_close_button"], //node[@text="Change my payment details"], //node[@resource-id="deezer.android.app:id/welcome_title"], //node[@resource-id="deezer.android.app:id/webview_cancel"], //node[@text="Accept"], //node[@text="Process system isn't responding"], //node[@resource-id="android:id/message"]
+Source         : LDiumSharp
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 387
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 589
+-----------------------------------------------------------
+-----------------------------------------------------------
+[20/09/2024 04:48:19 PM] ERROR: System.Exception
+Message        : Failed to connect to LDium server after 5 attempts.
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 275
+-----------------------------------------------------------
+-----------------------------------------------------------
+[20/09/2024 04:48:31 PM] ERROR: System.Exception
+Message        : Failed to connect to LDium server after 5 attempts.
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 275
+-----------------------------------------------------------
+-----------------------------------------------------------
+[20/09/2024 04:48:43 PM] ERROR: System.Exception
+Message        : Failed to connect to LDium server after 5 attempts.
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 275
+-----------------------------------------------------------
+-----------------------------------------------------------
+[20/09/2024 04:48:55 PM] ERROR: System.Exception
+Message        : Failed to connect to LDium server after 5 attempts.
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 275
+-----------------------------------------------------------
+-----------------------------------------------------------
+[20/09/2024 05:25:19 PM] ERROR: System.IndexOutOfRangeException
+Message        : Index was outside the bounds of the array.
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2990
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1151
+-----------------------------------------------------------
+-----------------------------------------------------------
+[20/09/2024 05:38:44 PM] ERROR: System.IndexOutOfRangeException
+Message        : Index was outside the bounds of the array.
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2973
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1151
+-----------------------------------------------------------
+-----------------------------------------------------------
+[20/09/2024 05:44:09 PM] ERROR: System.Exception
+Message        : LDium protocol is disconnected.
+Source         : mscorlib
+TargetSite     : Void ThrowForNonSuccess(System.Threading.Tasks.Task)
+StackTrace     : 
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__7.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 88
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 49
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<DumpViewHierarchyAsync>d__50.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 108
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 376
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OpenSourceAsync>d__34.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1254
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1047
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 11:33:23 AM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2740
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1151
+IException     : System.Exception
+IMessage       : WebSocket is not connected.
+ISource        : LDiumSharp
+ITargetSite    : System.Threading.Tasks.Task SendAsync(System.ArraySegment`1[System.Byte], System.Net.WebSockets.WebSocketMessageType, Boolean, System.Threading.CancellationToken)
+IStackTrace    : 
+   at LDiumSharp.WebSockets.WebSocketClient.SendAsync(ArraySegment`1 data, WebSocketMessageType type, Boolean end_of_message, CancellationToken token) in E:\Data\2024\MEmu\Libraries\LDiumSharp\WebSockets\WebSocketClient.cs:line 116
+   at LDiumSharp.WebSockets.WebSocketClient.SendAsync(String data, CancellationToken token) in E:\Data\2024\MEmu\Libraries\LDiumSharp\WebSockets\WebSocketClient.cs:line 98
+   at LDiumSharp.Protocol.<SendAsync>d__23.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\Protocol.cs:line 83
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__7.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 86
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 49
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 11:33:25 AM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2890
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1151
+IException     : System.Exception
+IMessage       : LDium protocol is disconnected.
+ISource        : mscorlib
+ITargetSite    : Void ThrowForNonSuccess(System.Threading.Tasks.Task)
+IStackTrace    : 
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__7.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 88
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 49
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 11:35:17 AM] ERROR: System.Exception
+Message        : WebSocket is not connected.
+Source         : LDiumSharp
+TargetSite     : System.Threading.Tasks.Task SendAsync(System.ArraySegment`1[System.Byte], System.Net.WebSockets.WebSocketMessageType, Boolean, System.Threading.CancellationToken)
+StackTrace     : 
+   at LDiumSharp.WebSockets.WebSocketClient.SendAsync(ArraySegment`1 data, WebSocketMessageType type, Boolean end_of_message, CancellationToken token) in E:\Data\2024\MEmu\Libraries\LDiumSharp\WebSockets\WebSocketClient.cs:line 116
+   at LDiumSharp.WebSockets.WebSocketClient.SendAsync(String data, CancellationToken token) in E:\Data\2024\MEmu\Libraries\LDiumSharp\WebSockets\WebSocketClient.cs:line 98
+   at LDiumSharp.Protocol.<SendAsync>d__23.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\Protocol.cs:line 83
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__7.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 86
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 49
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<DumpViewHierarchyAsync>d__50.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 108
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 376
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OpenSourceAsync>d__34.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1254
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1047
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 11:45:42 AM] ERROR: System.IndexOutOfRangeException
+Message        : Index was outside the bounds of the array.
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2974
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1151
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 12:14:18 PM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1097
+IException     : System.Exception
+IMessage       : LDium protocol is disconnected.
+ISource        : mscorlib
+ITargetSite    : Void ThrowForNonSuccess(System.Threading.Tasks.Task)
+IStackTrace    : 
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__7.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 88
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 49
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<DumpViewHierarchyAsync>d__50.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 108
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<ExistAsync>d__72.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 335
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 12:15:21 PM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1142
+IException     : LDiumSharp.Exceptions.JavaException
+IMessage       : Attempt to invoke virtual method 'java.lang.CharSequence android.view.accessibility.AccessibilityNodeInfo.getText()' on a null object reference
+IStackTrace    : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<DumpViewHierarchyAsync>d__50.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 108
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<ExistAsync>d__72.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 335
+JException     : java.lang.NullPointerException
+JStackTrace    : 
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:43)
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:31)
+com.android.ldium.domains.UiDomain.DumpLayout(UiDomain.java:130)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.ldium.server.domains.BaseDomain.execute(BaseDomain.java:86)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:79)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:64)
+com.android.ldium.server.Server.onMessage(Server.java:75)
+com.android.ldium.server.Server.onMessage(Server.java:55)
+org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:712)
+org.java_websocket.drafts.Draft_6455.processFrameText(Draft_6455.java:986)
+org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:910)
+org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:401)
+org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:233)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1114)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:1086)
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 12:16:46 PM] ERROR: System.TimeoutException
+Message        : Failed to wait node exist: //node[@resource-id='deezer.android.app:id/masthead_motion_layout_masthead_illustration_View'], //node[@index='9'], //node[@resource-id='deezer.android.app:id/fl_insets'], //node[@resource-id='deezer.android.app:id/card'], //node[@text='QUIT'], //node[@text='RETRY']
+Source         : LDiumSharp
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 387
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OpenSourceAsync>d__34.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1254
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1047
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 12:17:18 PM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1142
+IException     : LDiumSharp.Exceptions.JavaException
+IMessage       : Attempt to invoke virtual method 'java.lang.CharSequence android.view.accessibility.AccessibilityNodeInfo.getText()' on a null object reference
+IStackTrace    : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<DumpViewHierarchyAsync>d__50.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 108
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<ExistAsync>d__72.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 335
+JException     : java.lang.NullPointerException
+JStackTrace    : 
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:43)
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:31)
+com.android.ldium.domains.UiDomain.DumpLayout(UiDomain.java:130)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.ldium.server.domains.BaseDomain.execute(BaseDomain.java:86)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:79)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:64)
+com.android.ldium.server.Server.onMessage(Server.java:75)
+com.android.ldium.server.Server.onMessage(Server.java:55)
+org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:712)
+org.java_websocket.drafts.Draft_6455.processFrameText(Draft_6455.java:986)
+org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:910)
+org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:401)
+org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:233)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1114)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:1086)
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 12:34:07 PM] ERROR: System.TimeoutException
+Message        : Failed to wait node exist: //node[@resource-id="deezer.android.app:id/cover_and_title"], //node[@resource-id="deezer.android.app:id/continue_btn"], //node[@resource-id="android:id/button1"], //node[@resource-id="deezer.android.app:id/header_close_button"], //node[@text="Change my payment details"], //node[@resource-id="deezer.android.app:id/welcome_title"], //node[@resource-id="deezer.android.app:id/webview_cancel"], //node[@text="Accept"], //node[@text="Process system isn't responding"], //node[@resource-id="android:id/message"]
+Source         : LDiumSharp
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 387
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 589
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 12:35:10 PM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1142
+IException     : LDiumSharp.Exceptions.JavaException
+IMessage       : Attempt to invoke virtual method 'java.lang.CharSequence android.view.accessibility.AccessibilityNodeInfo.getText()' on a null object reference
+IStackTrace    : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<DumpViewHierarchyAsync>d__50.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 108
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<ExistAsync>d__72.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 335
+JException     : java.lang.NullPointerException
+JStackTrace    : 
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:43)
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:31)
+com.android.ldium.domains.UiDomain.DumpLayout(UiDomain.java:130)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.ldium.server.domains.BaseDomain.execute(BaseDomain.java:86)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:79)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:64)
+com.android.ldium.server.Server.onMessage(Server.java:75)
+com.android.ldium.server.Server.onMessage(Server.java:55)
+org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:712)
+org.java_websocket.drafts.Draft_6455.processFrameText(Draft_6455.java:986)
+org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:910)
+org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:401)
+org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:233)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1114)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:1086)
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 12:46:27 PM] ERROR: System.IndexOutOfRangeException
+Message        : Index was outside the bounds of the array.
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2974
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1151
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 01:51:09 PM] ERROR: System.TimeoutException
+Message        : Failed to wait node exist: //node[@resource-id="deezer.android.app:id/cover_and_title"], //node[@resource-id="deezer.android.app:id/continue_btn"], //node[@resource-id="android:id/button1"], //node[@resource-id="deezer.android.app:id/header_close_button"], //node[@text="Change my payment details"], //node[@resource-id="deezer.android.app:id/welcome_title"], //node[@resource-id="deezer.android.app:id/webview_cancel"], //node[@text="Accept"], //node[@text="Process system isn't responding"], //node[@resource-id="android:id/message"]
+Source         : LDiumSharp
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 387
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 589
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 01:51:42 PM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1142
+IException     : LDiumSharp.Exceptions.JavaException
+IMessage       : Attempt to invoke virtual method 'java.lang.CharSequence android.view.accessibility.AccessibilityNodeInfo.getText()' on a null object reference
+IStackTrace    : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<DumpViewHierarchyAsync>d__50.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 108
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<ExistAsync>d__72.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 335
+JException     : java.lang.NullPointerException
+JStackTrace    : 
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:43)
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:31)
+com.android.ldium.domains.UiDomain.DumpLayout(UiDomain.java:130)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.ldium.server.domains.BaseDomain.execute(BaseDomain.java:86)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:79)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:64)
+com.android.ldium.server.Server.onMessage(Server.java:75)
+com.android.ldium.server.Server.onMessage(Server.java:55)
+org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:712)
+org.java_websocket.drafts.Draft_6455.processFrameText(Draft_6455.java:986)
+org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:910)
+org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:401)
+org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:233)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1114)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:1086)
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 02:28:15 PM] ERROR: System.Exception
+Message        : Failed to pick source.
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1022
+IException     : System.Threading.Tasks.TaskCanceledException
+IMessage       : A task was canceled.
+ISource        : mscorlib
+ITargetSite    : Void ThrowForNonSuccess(System.Threading.Tasks.Task)
+IStackTrace    : 
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at BoosterClient.APIClient.<RequestAsync>d__27.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\API\APIClient.cs:line 128
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at BoosterClient.APIClient.<RequestAsync>d__30`1.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\API\APIClient.cs:line 190
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1012
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 03:32:06 PM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1142
+IException     : LDiumSharp.Exceptions.JavaException
+IMessage       : Attempt to invoke virtual method 'java.lang.CharSequence android.view.accessibility.AccessibilityNodeInfo.getText()' on a null object reference
+IStackTrace    : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<DumpViewHierarchyAsync>d__50.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 108
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<ExistAsync>d__72.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 335
+JException     : java.lang.NullPointerException
+JStackTrace    : 
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:43)
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:31)
+com.android.ldium.domains.UiDomain.DumpLayout(UiDomain.java:130)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.ldium.server.domains.BaseDomain.execute(BaseDomain.java:86)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:79)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:64)
+com.android.ldium.server.Server.onMessage(Server.java:75)
+com.android.ldium.server.Server.onMessage(Server.java:55)
+org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:712)
+org.java_websocket.drafts.Draft_6455.processFrameText(Draft_6455.java:986)
+org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:910)
+org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:401)
+org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:233)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1114)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:1086)
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 03:37:41 PM] ERROR: System.Exception
+Message        : Playing failed
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2921
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1151
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 03:38:45 PM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1142
+IException     : LDiumSharp.Exceptions.JavaException
+IMessage       : Attempt to invoke virtual method 'java.lang.CharSequence android.view.accessibility.AccessibilityNodeInfo.getText()' on a null object reference
+IStackTrace    : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<DumpViewHierarchyAsync>d__50.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 108
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<ExistAsync>d__72.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 335
+JException     : java.lang.NullPointerException
+JStackTrace    : 
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:43)
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:31)
+com.android.ldium.domains.UiDomain.DumpLayout(UiDomain.java:130)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.ldium.server.domains.BaseDomain.execute(BaseDomain.java:86)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:79)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:64)
+com.android.ldium.server.Server.onMessage(Server.java:75)
+com.android.ldium.server.Server.onMessage(Server.java:55)
+org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:712)
+org.java_websocket.drafts.Draft_6455.processFrameText(Draft_6455.java:986)
+org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:910)
+org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:401)
+org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:233)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1114)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:1086)
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 03:40:26 PM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at MemuDeezerClient.MainAsyncAutoThread.PlayMusic2(String link, LDium ldium, Int32 i) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2732
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1148
+IException     : LDiumSharp.Exceptions.NodeNotFoundException
+IMessage       : //node[@resource-id="deezer.android.app:id/card"]/node[@resource-id="deezer.android.app:id/card_play_button"]/node[1]/node[1]/node[1]
+ISource        : LDiumSharp
+ITargetSite    : Void MoveNext()
+IStackTrace    : 
+   at LDiumSharp.LDium.<TouchAsync>d__58.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 185
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 04:20:05 PM] ERROR: System.NullReferenceException
+Message        : Object reference not set to an instance of an object.
+Source         : MemuDeezerClient
+TargetSite     : Void PlayMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.PlayMusic2(String link, LDium ldium, Int32 i) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2578
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1141
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 04:21:24 PM] ERROR: System.TimeoutException
+Message        : Failed to wait node exist: //node[@resource-id='deezer.android.app:id/masthead_motion_layout_masthead_illustration_View'], //node[@index='9'], //node[@resource-id='deezer.android.app:id/fl_insets'], //node[@resource-id='deezer.android.app:id/card'], //node[@text='QUIT'], //node[@text='RETRY']
+Source         : LDiumSharp
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 387
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OpenSourceAsync>d__34.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1254
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1047
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 04:24:58 PM] ERROR: System.Exception
+Message        : Playing together
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2905
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1151
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 04:36:31 PM] ERROR: System.IndexOutOfRangeException
+Message        : Index was outside the bounds of the array.
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2973
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1151
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 04:37:05 PM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1135
+IException     : LDiumSharp.Exceptions.JavaException
+IMessage       : Attempt to invoke virtual method 'java.lang.CharSequence android.view.accessibility.AccessibilityNodeInfo.getText()' on a null object reference
+IStackTrace    : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<DumpViewHierarchyAsync>d__50.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 108
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<ExistAsync>d__72.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 335
+JException     : java.lang.NullPointerException
+JStackTrace    : 
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:43)
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:31)
+com.android.ldium.domains.UiDomain.DumpLayout(UiDomain.java:130)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.ldium.server.domains.BaseDomain.execute(BaseDomain.java:86)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:79)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:64)
+com.android.ldium.server.Server.onMessage(Server.java:75)
+com.android.ldium.server.Server.onMessage(Server.java:55)
+org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:712)
+org.java_websocket.drafts.Draft_6455.processFrameText(Draft_6455.java:986)
+org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:910)
+org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:401)
+org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:233)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1114)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:1086)
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 04:39:30 PM] ERROR: System.Exception
+Message        : Playing failed
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2920
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1151
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/09/2024 04:40:32 PM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1135
+IException     : LDiumSharp.Exceptions.JavaException
+IMessage       : Attempt to invoke virtual method 'java.lang.CharSequence android.view.accessibility.AccessibilityNodeInfo.getText()' on a null object reference
+IStackTrace    : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<DumpViewHierarchyAsync>d__50.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 108
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<ExistAsync>d__72.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 335
+JException     : java.lang.NullPointerException
+JStackTrace    : 
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:43)
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:31)
+com.android.ldium.domains.UiDomain.DumpLayout(UiDomain.java:130)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.ldium.server.domains.BaseDomain.execute(BaseDomain.java:86)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:79)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:64)
+com.android.ldium.server.Server.onMessage(Server.java:75)
+com.android.ldium.server.Server.onMessage(Server.java:55)
+org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:712)
+org.java_websocket.drafts.Draft_6455.processFrameText(Draft_6455.java:986)
+org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:910)
+org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:401)
+org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:233)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1114)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:1086)
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+[25/09/2024 03:21:31 PM] ERROR: BoosterClient.API.Exceptions.APIException
+Message        : Unable to read profile payload.
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at BoosterClient.APIClient.<RequestAsync>d__27.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\API\APIClient.cs:line 159
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at BoosterClient.APIClient.<DownloadAsync>d__32.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\API\APIClient.cs:line 207
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 461
+-----------------------------------------------------------
+-----------------------------------------------------------
+[25/09/2024 03:21:57 PM] ERROR: LDiumSharp.Exceptions.JavaException
+Message        : Attempt to invoke virtual method 'java.lang.CharSequence android.view.accessibility.AccessibilityNodeInfo.getText()' on a null object reference
+Source         : LDiumSharp
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<DumpViewHierarchyAsync>d__50.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 108
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 376
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 589
+-----------------------------------------------------------
+-----------------------------------------------------------
+[25/09/2024 03:44:57 PM] ERROR: System.NullReferenceException
+Message        : Object reference not set to an instance of an object.
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2764
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1153
+-----------------------------------------------------------
+-----------------------------------------------------------
+[26/09/2024 05:24:48 PM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1144
+IException     : LDiumSharp.Exceptions.JavaException
+IMessage       : Attempt to invoke virtual method 'java.lang.CharSequence android.view.accessibility.AccessibilityNodeInfo.getText()' on a null object reference
+IStackTrace    : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<DumpViewHierarchyAsync>d__50.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 108
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<ExistAsync>d__72.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 335
+JException     : java.lang.NullPointerException
+JStackTrace    : 
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:43)
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:31)
+com.android.ldium.domains.UiDomain.DumpLayout(UiDomain.java:130)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.ldium.server.domains.BaseDomain.execute(BaseDomain.java:86)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:79)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:64)
+com.android.ldium.server.Server.onMessage(Server.java:75)
+com.android.ldium.server.Server.onMessage(Server.java:55)
+org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:712)
+org.java_websocket.drafts.Draft_6455.processFrameText(Draft_6455.java:986)
+org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:910)
+org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:401)
+org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:233)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1114)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:1086)
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+[26/09/2024 05:25:22 PM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1144
+IException     : LDiumSharp.Exceptions.JavaException
+IMessage       : Attempt to invoke virtual method 'java.lang.CharSequence android.view.accessibility.AccessibilityNodeInfo.getText()' on a null object reference
+IStackTrace    : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<DumpViewHierarchyAsync>d__50.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 108
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<ExistAsync>d__72.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 335
+JException     : java.lang.NullPointerException
+JStackTrace    : 
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:43)
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:31)
+com.android.ldium.domains.UiDomain.DumpLayout(UiDomain.java:130)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.ldium.server.domains.BaseDomain.execute(BaseDomain.java:86)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:79)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:64)
+com.android.ldium.server.Server.onMessage(Server.java:75)
+com.android.ldium.server.Server.onMessage(Server.java:55)
+org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:712)
+org.java_websocket.drafts.Draft_6455.processFrameText(Draft_6455.java:986)
+org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:910)
+org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:401)
+org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:233)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1114)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:1086)
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+[26/09/2024 05:35:17 PM] ERROR: System.Exception
+Message        : Failed to restore profile payload.
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 517
+IException     : LDiumSharp.Exceptions.JavaException
+IMessage       : Attempt to invoke virtual method 'boolean java.lang.String.matches(java.lang.String)' on a null object reference
+IStackTrace    : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at LDiumSharp.LDium.<RestoreAppAsync>d__56.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 158
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 513
+JException     : java.lang.NullPointerException
+JStackTrace    : 
+com.android.ldium.domains.app.BackupFactory.restore(BackupFactory.java:233)
+com.android.ldium.domains.AppDomain.Restore(AppDomain.java:54)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.ldium.server.domains.BaseDomain.execute(BaseDomain.java:86)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:79)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:64)
+com.android.ldium.server.Server.onMessage(Server.java:75)
+com.android.ldium.server.Server.onMessage(Server.java:55)
+org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:712)
+org.java_websocket.drafts.Draft_6455.processFrameText(Draft_6455.java:986)
+org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:910)
+org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:401)
+org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:233)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1114)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:1086)
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+[26/09/2024 05:39:50 PM] ERROR: System.Exception
+Message        : Failed to restore profile payload.
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 517
+IException     : LDiumSharp.Exceptions.JavaException
+IMessage       : Attempt to invoke virtual method 'boolean java.lang.String.matches(java.lang.String)' on a null object reference
+IStackTrace    : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at LDiumSharp.LDium.<RestoreAppAsync>d__56.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 158
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 513
+JException     : java.lang.NullPointerException
+JStackTrace    : 
+com.android.ldium.domains.app.BackupFactory.restore(BackupFactory.java:233)
+com.android.ldium.domains.AppDomain.Restore(AppDomain.java:54)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.ldium.server.domains.BaseDomain.execute(BaseDomain.java:86)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:79)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:64)
+com.android.ldium.server.Server.onMessage(Server.java:75)
+com.android.ldium.server.Server.onMessage(Server.java:55)
+org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:712)
+org.java_websocket.drafts.Draft_6455.processFrameText(Draft_6455.java:986)
+org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:910)
+org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:401)
+org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:233)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1114)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:1086)
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+[27/09/2024 08:55:18 AM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at MemuDeezerClient.MainAsyncAutoThread.PlayMusic2(String link, LDium ldium, Int32 i) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2610
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1150
+IException     : System.Exception
+IMessage       : WebSocket is not connected.
+ISource        : LDiumSharp
+ITargetSite    : System.Threading.Tasks.Task SendAsync(System.ArraySegment`1[System.Byte], System.Net.WebSockets.WebSocketMessageType, Boolean, System.Threading.CancellationToken)
+IStackTrace    : 
+   at LDiumSharp.WebSockets.WebSocketClient.SendAsync(ArraySegment`1 data, WebSocketMessageType type, Boolean end_of_message, CancellationToken token) in E:\Data\2024\MEmu\Libraries\LDiumSharp\WebSockets\WebSocketClient.cs:line 116
+   at LDiumSharp.WebSockets.WebSocketClient.SendAsync(String data, CancellationToken token) in E:\Data\2024\MEmu\Libraries\LDiumSharp\WebSockets\WebSocketClient.cs:line 98
+   at LDiumSharp.Protocol.<SendAsync>d__23.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\Protocol.cs:line 83
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__7.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 86
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 49
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<DumpViewHierarchyAsync>d__50.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 108
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<ExistAsync>d__72.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 335
+-----------------------------------------------------------
+-----------------------------------------------------------
+[27/09/2024 05:08:19 PM] ERROR: System.Exception
+Message        : Failed to connect to LDium server after 5 attempts.
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 275
+-----------------------------------------------------------
+-----------------------------------------------------------
+[27/09/2024 05:09:23 PM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1144
+IException     : LDiumSharp.Exceptions.JavaException
+IMessage       : Attempt to invoke virtual method 'java.lang.CharSequence android.view.accessibility.AccessibilityNodeInfo.getText()' on a null object reference
+IStackTrace    : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<DumpViewHierarchyAsync>d__50.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 108
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at LDiumSharp.LDium.<ExistAsync>d__72.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 335
+JException     : java.lang.NullPointerException
+JStackTrace    : 
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:43)
+com.android.ldium.domains.ui.LayoutDumper.dump(LayoutDumper.java:31)
+com.android.ldium.domains.UiDomain.DumpLayout(UiDomain.java:130)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.ldium.server.domains.BaseDomain.execute(BaseDomain.java:86)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:79)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:64)
+com.android.ldium.server.Server.onMessage(Server.java:75)
+com.android.ldium.server.Server.onMessage(Server.java:55)
+org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:712)
+org.java_websocket.drafts.Draft_6455.processFrameText(Draft_6455.java:986)
+org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:910)
+org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:401)
+org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:233)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1114)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:1086)
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+[01/10/2024 04:09:02 PM] ERROR: BoosterClient.API.Exceptions.APIException
+Message        : 
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at BoosterClient.APIClient.<RequestAsync>d__27.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\API\APIClient.cs:line 161
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 607
+-----------------------------------------------------------
+-----------------------------------------------------------
+[01/10/2024 04:18:40 PM] ERROR: System.IndexOutOfRangeException
+Message        : Index was outside the bounds of the array.
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2985
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1163
+-----------------------------------------------------------
+-----------------------------------------------------------
+[02/10/2024 04:45:32 PM] ERROR: System.Exception
+Message        : Failed to restore profile payload.
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 519
+IException     : LDiumSharp.Exceptions.JavaException
+IMessage       : Attempt to invoke virtual method 'boolean java.lang.String.matches(java.lang.String)' on a null object reference
+IStackTrace    : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at LDiumSharp.LDium.<RestoreAppAsync>d__56.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 158
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 515
+JException     : java.lang.NullPointerException
+JStackTrace    : 
+com.android.ldium.domains.app.BackupFactory.restore(BackupFactory.java:233)
+com.android.ldium.domains.AppDomain.Restore(AppDomain.java:54)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.ldium.server.domains.BaseDomain.execute(BaseDomain.java:86)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:79)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:64)
+com.android.ldium.server.Server.onMessage(Server.java:75)
+com.android.ldium.server.Server.onMessage(Server.java:55)
+org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:712)
+org.java_websocket.drafts.Draft_6455.processFrameText(Draft_6455.java:986)
+org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:910)
+org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:401)
+org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:233)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1114)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:1086)
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+[03/10/2024 03:42:53 PM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at MemuDeezerClient.MainAsyncAutoThread.PlayMusic2(String link, LDium ldium, Int32 i) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2757
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1166
+IException     : LDiumSharp.Exceptions.NodeNotFoundException
+IMessage       : //node[@resource-id="deezer.android.app:id/card"]/node[@resource-id="deezer.android.app:id/card_play_button"]/node[1]/node[1]/node[1]
+ISource        : LDiumSharp
+ITargetSite    : Void MoveNext()
+IStackTrace    : 
+   at LDiumSharp.LDium.<TouchAsync>d__58.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 185
+-----------------------------------------------------------
+-----------------------------------------------------------
+[03/10/2024 03:50:03 PM] ERROR: System.Exception
+Message        : Failed to restore profile payload.
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 519
+IException     : LDiumSharp.Exceptions.JavaException
+IMessage       : Attempt to invoke virtual method 'boolean java.lang.String.matches(java.lang.String)' on a null object reference
+IStackTrace    : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at LDiumSharp.LDium.<RestoreAppAsync>d__56.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 158
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 515
+JException     : java.lang.NullPointerException
+JStackTrace    : 
+com.android.ldium.domains.app.BackupFactory.restore(BackupFactory.java:233)
+com.android.ldium.domains.AppDomain.Restore(AppDomain.java:54)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.ldium.server.domains.BaseDomain.execute(BaseDomain.java:86)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:79)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:64)
+com.android.ldium.server.Server.onMessage(Server.java:75)
+com.android.ldium.server.Server.onMessage(Server.java:55)
+org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:712)
+org.java_websocket.drafts.Draft_6455.processFrameText(Draft_6455.java:986)
+org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:910)
+org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:401)
+org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:233)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1114)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:1086)
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+[03/10/2024 04:12:45 PM] ERROR: System.Exception
+Message        : Playing failed
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2945
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1176
+-----------------------------------------------------------
+-----------------------------------------------------------
+[03/10/2024 04:21:24 PM] ERROR: System.IndexOutOfRangeException
+Message        : Index was outside the bounds of the array.
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2998
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1176
+-----------------------------------------------------------
+-----------------------------------------------------------
+[03/10/2024 04:26:45 PM] ERROR: System.Exception
+Message        : Playing failed
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2945
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1176
+-----------------------------------------------------------
+-----------------------------------------------------------
+[04/10/2024 09:14:28 AM] ERROR: System.Exception
+Message        : Playing failed
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2945
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1176
+-----------------------------------------------------------
+-----------------------------------------------------------
+[04/10/2024 02:45:32 PM] ERROR: System.AggregateException
+Message        : One or more errors occurred.
+Source         : mscorlib
+TargetSite     : Void ThrowIfExceptional(Boolean)
+StackTrace     : 
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at MemuDeezerClient.MainAsyncAutoThread.PlayMusic2(String link, LDium ldium, Int32 i) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2757
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1166
+IException     : LDiumSharp.Exceptions.NodeNotFoundException
+IMessage       : //node[@resource-id="deezer.android.app:id/card"]/node[@resource-id="deezer.android.app:id/card_play_button"]/node[1]/node[1]/node[1]
+ISource        : LDiumSharp
+ITargetSite    : Void MoveNext()
+IStackTrace    : 
+   at LDiumSharp.LDium.<TouchAsync>d__58.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 185
+-----------------------------------------------------------
+-----------------------------------------------------------
+[04/10/2024 02:55:19 PM] ERROR: System.TimeoutException
+Message        : Failed to wait node exist: //node[@resource-id="deezer.android.app:id/cover_and_title"], //node[@resource-id="deezer.android.app:id/continue_btn"], //node[@resource-id="android:id/button1"], //node[@resource-id="deezer.android.app:id/header_close_button"], //node[@text="Change my payment details"], //node[@resource-id="deezer.android.app:id/welcome_title"], //node[@resource-id="deezer.android.app:id/webview_cancel"], //node[@text="Accept"], //node[@text="Process system isn't responding"], //node[@resource-id="android:id/message"]
+Source         : LDiumSharp
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 387
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 590
+-----------------------------------------------------------
+-----------------------------------------------------------
+[04/10/2024 03:05:20 PM] ERROR: System.TimeoutException
+Message        : Failed to wait node exist: //node[@resource-id="deezer.android.app:id/cover_and_title"], //node[@resource-id="deezer.android.app:id/continue_btn"], //node[@resource-id="android:id/button1"], //node[@resource-id="deezer.android.app:id/header_close_button"], //node[@text="Change my payment details"], //node[@resource-id="deezer.android.app:id/welcome_title"], //node[@resource-id="deezer.android.app:id/webview_cancel"], //node[@text="Accept"], //node[@text="Process system isn't responding"], //node[@resource-id="android:id/message"]
+Source         : LDiumSharp
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 387
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 590
+-----------------------------------------------------------
+-----------------------------------------------------------
+[04/10/2024 04:04:21 PM] ERROR: System.NullReferenceException
+Message        : Object reference not set to an instance of an object.
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2791
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1176
+-----------------------------------------------------------
+-----------------------------------------------------------
+[04/10/2024 04:31:23 PM] ERROR: System.Exception
+Message        : Failed to restore profile payload.
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 519
+IException     : LDiumSharp.Exceptions.JavaException
+IMessage       : Attempt to invoke virtual method 'boolean java.lang.String.matches(java.lang.String)' on a null object reference
+IStackTrace    : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at LDiumSharp.LDium.<RestoreAppAsync>d__56.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 158
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 515
+JException     : java.lang.NullPointerException
+JStackTrace    : 
+com.android.ldium.domains.app.BackupFactory.restore(BackupFactory.java:233)
+com.android.ldium.domains.AppDomain.Restore(AppDomain.java:54)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.ldium.server.domains.BaseDomain.execute(BaseDomain.java:86)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:79)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:64)
+com.android.ldium.server.Server.onMessage(Server.java:75)
+com.android.ldium.server.Server.onMessage(Server.java:55)
+org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:712)
+org.java_websocket.drafts.Draft_6455.processFrameText(Draft_6455.java:986)
+org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:910)
+org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:401)
+org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:233)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1114)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:1086)
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+[04/10/2024 04:51:49 PM] ERROR: LDiumSharp.Exceptions.NodeNotFoundException
+Message        : //node[@class="androidx.compose.ui.platform.ComposeView"]/node[1]/node[1]/node[2]
+Source         : LDiumSharp
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at LDiumSharp.LDium.<TouchAsync>d__58.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 185
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 699
+-----------------------------------------------------------
+-----------------------------------------------------------
+[04/10/2024 04:57:58 PM] ERROR: System.ArgumentOutOfRangeException
+Message        : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source         : mscorlib
+TargetSite     : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+StackTrace     : 
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at MemuDeezerClient.MainAsyncAutoThread.PlayMusic2(String link, LDium ldium, Int32 i) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2622
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1166
+-----------------------------------------------------------
+-----------------------------------------------------------
+[05/10/2024 08:15:38 AM] ERROR: System.Exception
+Message        : Playing together
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2937
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1176
+-----------------------------------------------------------
+-----------------------------------------------------------
+[05/10/2024 08:29:10 AM] ERROR: System.IndexOutOfRangeException
+Message        : Index was outside the bounds of the array.
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 3005
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1176
+-----------------------------------------------------------
+-----------------------------------------------------------
+[05/10/2024 08:41:12 AM] ERROR: System.IndexOutOfRangeException
+Message        : Index was outside the bounds of the array.
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 3005
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1176
+-----------------------------------------------------------
+-----------------------------------------------------------
+[05/10/2024 08:48:04 AM] ERROR: System.NullReferenceException
+Message        : Object reference not set to an instance of an object.
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2836
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1176
+-----------------------------------------------------------
+-----------------------------------------------------------
+[05/10/2024 09:03:19 AM] ERROR: System.IndexOutOfRangeException
+Message        : Index was outside the bounds of the array.
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 3022
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1176
+-----------------------------------------------------------
+-----------------------------------------------------------
+[05/10/2024 11:48:10 AM] ERROR: System.Exception
+Message        : Failed to restore profile payload.
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 519
+IException     : LDiumSharp.Exceptions.JavaException
+IMessage       : Attempt to invoke virtual method 'boolean java.lang.String.matches(java.lang.String)' on a null object reference
+IStackTrace    : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at LDiumSharp.LDium.<RestoreAppAsync>d__56.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 158
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 515
+JException     : java.lang.NullPointerException
+JStackTrace    : 
+com.android.ldium.domains.app.BackupFactory.restore(BackupFactory.java:233)
+com.android.ldium.domains.AppDomain.Restore(AppDomain.java:54)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.ldium.server.domains.BaseDomain.execute(BaseDomain.java:86)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:79)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:64)
+com.android.ldium.server.Server.onMessage(Server.java:75)
+com.android.ldium.server.Server.onMessage(Server.java:55)
+org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:712)
+org.java_websocket.drafts.Draft_6455.processFrameText(Draft_6455.java:986)
+org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:910)
+org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:401)
+org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:233)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1114)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:1086)
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+[10/10/2024 10:53:31 AM] ERROR: LDiumSharp.Exceptions.NodeNotFoundException
+Message        : //node[@resource-id="android:id/button2"]
+Source         : LDiumSharp
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at LDiumSharp.LDium.<TouchAsync>d__58.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 185
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 663
+-----------------------------------------------------------
+-----------------------------------------------------------
+[10/10/2024 02:50:24 PM] ERROR: System.IndexOutOfRangeException
+Message        : Index was outside the bounds of the array.
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 3012
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1182
+-----------------------------------------------------------
+-----------------------------------------------------------
+[25/10/2024 11:55:49 AM] ERROR: System.IndexOutOfRangeException
+Message        : Index was outside the bounds of the array.
+Source         : MemuDeezerClient
+TargetSite     : Void ListenMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.ListenMusic2(String link, LDium ldium, Int32 luot) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 3012
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1182
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/11/2024 11:07:30 AM] ERROR: System.NullReferenceException
+Message        : Object reference not set to an instance of an object.
+Source         : MemuDeezerClient
+TargetSite     : Void PlayMusic2(System.String, LDiumSharp.LDium, Int32)
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.PlayMusic2(String link, LDium ldium, Int32 i) in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 2580
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 1181
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/11/2024 11:07:37 AM] ERROR: System.Exception
+Message        : Failed to restore profile payload.
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 519
+IException     : LDiumSharp.Exceptions.JavaException
+IMessage       : Attempt to invoke virtual method 'boolean java.lang.String.matches(java.lang.String)' on a null object reference
+IStackTrace    : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at LDiumSharp.LDium.<RestoreAppAsync>d__56.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 158
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 515
+JException     : java.lang.NullPointerException
+JStackTrace    : 
+com.android.ldium.domains.app.BackupFactory.restore(BackupFactory.java:233)
+com.android.ldium.domains.AppDomain.Restore(AppDomain.java:54)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.ldium.server.domains.BaseDomain.execute(BaseDomain.java:86)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:79)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:64)
+com.android.ldium.server.Server.onMessage(Server.java:75)
+com.android.ldium.server.Server.onMessage(Server.java:55)
+org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:712)
+org.java_websocket.drafts.Draft_6455.processFrameText(Draft_6455.java:986)
+org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:910)
+org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:401)
+org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:233)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1114)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:1086)
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/11/2024 11:08:20 AM] ERROR: System.TimeoutException
+Message        : Failed to wait node exist: //node[@resource-id="deezer.android.app:id/cover_and_title"], //node[@resource-id="deezer.android.app:id/continue_btn"], //node[@resource-id="android:id/button1"], //node[@resource-id="deezer.android.app:id/header_close_button"], //node[@text="Change my payment details"], //node[@resource-id="deezer.android.app:id/welcome_title"], //node[@resource-id="deezer.android.app:id/webview_cancel"], //node[@text="Accept"], //node[@text="Process system isn't responding"], //node[@resource-id="android:id/message"]
+Source         : LDiumSharp
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at LDiumSharp.LDium.<WaitForExistAnyAsync>d__77.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 387
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 590
+-----------------------------------------------------------
+-----------------------------------------------------------
+[23/11/2024 11:10:43 AM] ERROR: System.Exception
+Message        : Failed to restore profile payload.
+Source         : MemuDeezerClient
+TargetSite     : Void MoveNext()
+StackTrace     : 
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 519
+IException     : LDiumSharp.Exceptions.JavaException
+IMessage       : Attempt to invoke virtual method 'boolean java.lang.String.matches(java.lang.String)' on a null object reference
+IStackTrace    : 
+   at LDiumSharp.CommandExecutor.<ExecuteAsync>d__6`1.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\CommandExecutor.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at LDiumSharp.LDium.<RestoreAppAsync>d__56.MoveNext() in E:\Data\2024\MEmu\Libraries\LDiumSharp\LDium.cs:line 158
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at MemuDeezerClient.MainAsyncAutoThread.<OnStartAsync>d__33.MoveNext() in E:\Tan\2024\MemuDeezer\MemuDeezerClient\MainAsyncAutoThread.cs:line 515
+JException     : java.lang.NullPointerException
+JStackTrace    : 
+com.android.ldium.domains.app.BackupFactory.restore(BackupFactory.java:233)
+com.android.ldium.domains.AppDomain.Restore(AppDomain.java:54)
+java.lang.reflect.Method.invoke(Native Method)
+com.android.ldium.server.domains.BaseDomain.execute(BaseDomain.java:86)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:79)
+com.android.ldium.server.CommandExecutor.execute(CommandExecutor.java:64)
+com.android.ldium.server.Server.onMessage(Server.java:75)
+com.android.ldium.server.Server.onMessage(Server.java:55)
+org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:712)
+org.java_websocket.drafts.Draft_6455.processFrameText(Draft_6455.java:986)
+org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:910)
+org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:401)
+org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:233)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1114)
+org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:1086)
+
+-----------------------------------------------------------
